@@ -14,12 +14,12 @@ text-align: center;
 }
 h2{
 	text-align: center;
-	color: darkred;
+	color: lightblue;
 	font-weight: bold;
 }
 h3{
 	text-align: center;
-	color:darkred;
+	color:lightblue;
 	font-weight:bold;
 }
 
@@ -33,7 +33,7 @@ h3{
 p{
 	text-align: center;
 	font-weight: bold;
-	color: darkred;
+	color: black;
 	padding: 5px;
 }
 p:first-letter{

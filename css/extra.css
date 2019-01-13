@@ -27,7 +27,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
 .whole{
 	font-weight: bold;
-	color: darkred;
+	color: black;
 }
 .navbar {
   overflow: hidden;
