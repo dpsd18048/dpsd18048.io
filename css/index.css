@@ -3,7 +3,7 @@
 
 body{
 	background-image:url("../images/Background.png");
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	
 }
 
@@ -24,16 +24,21 @@ h3{
 }
 
 #photo img {
-	float: left;
+	margin-left: 700px;
 }
 
 #photo p {
 	margin-left:120px;
 }
 p{
+	text-align: center;
 	font-weight: bold;
 	color: darkred;
-	padding: 50px;
+	padding: 5px;
+}
+p:first-letter{
+	color:cadetblue;
+	font-size:xx-large;
 }
 article{
 	text-align: center;
@@ -112,7 +117,7 @@ a:visited {
 
 footer{
 	padding: 0.5em;
-	margin-top: 500px;
+	margin-top: 90px;
     color: white;
     background-color: dimgrey;
     clear: left;
