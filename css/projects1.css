@@ -1,34 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
+
 body{
-	background-image: url("Background.png");
+	background-image: url("../images/Background.png");
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
 h1{
 color: #373737;
-text-align:center;
-margin-top: 50px;
-}
-table {
-  text-align: center;
-  border-collapse: collapse;
-  width: 100%;
-  border: hidden;
-  
+text-align: center;
 }
 
- tr,td {
-  text-align: left;
-  padding: 8px;
+.des{
+	float:left;
+	padding: 10px;
 }
 
-tr:nth-child(even) {background-color: #f2f2f2;}
 
-.whole{
-	font-weight: bold;
-	color: darkred;
-}
 .navbar {
   overflow: hidden;
   background-color: grey;
@@ -99,10 +87,8 @@ a:visited {
 	text-decoration: none;
 	color:darkred;
 }
-
 footer{
 	padding: 0.5em;
-	margin-top: 500px;
     color: white;
     background-color: dimgrey;
     clear: left;

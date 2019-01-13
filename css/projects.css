@@ -1,19 +1,27 @@
 @charset "utf-8";
 /* CSS Document */
-
 body{
-	background-image: url("Background.png");
+	background-image: url("../images/Background.png");
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
-
 h1{
-color: #373737;
-text-align: center;
+	text-align: center;
+	color: #373737;
 }
-
-.des{
-	float:left;
-	padding: 10px;
+h2{
+	text-align: center;
+	color:darkred;
+	font-weight:bold;
+}
+img{
+	padding: 40px;
+	
+}
+p{
+	text-align: center;
+	font-weight: bold;
+	color: darkred;
+	padding: 20px;
 }
 
 
@@ -87,6 +95,7 @@ a:visited {
 	text-decoration: none;
 	color:darkred;
 }
+
 footer{
 	padding: 0.5em;
     color: white;
